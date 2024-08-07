@@ -36,20 +36,7 @@ class _PicturesState extends State<Pictures> {
             color: Colors.white,
           ),
         ),
-        // actions: [
-        //   PopupMenuButton<String>(
-        //     onSelected: (value) => onDownloadOptionSelected(value),
-        //     itemBuilder: (BuildContext context) {
-        //       return ['Download Current Batch', 'Download All Images']
-        //           .map((String choice) {
-        //         return PopupMenuItem<String>(
-        //           value: choice,
-        //           child: Text(choice),
-        //         );
-        //       }).toList();
-        //     },
-        //   ),
-        // ],
+  
         backgroundColor: Color.fromARGB(255, 123, 156, 125),
         elevation: 0.0,
         centerTitle: true,
